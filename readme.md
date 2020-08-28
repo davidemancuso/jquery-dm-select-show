@@ -6,7 +6,7 @@ This [jQuery](https://jquery.com/) plugin allows you to use the options of one o
 
 ### Install
 
-Download the [latest release](https://github.com/davidemancuso/jquery-dm-select-show).
+Download the [latest release](https://github.com/davidemancuso/jquery-dm-select-show/releases).
 
 ### Load
 
