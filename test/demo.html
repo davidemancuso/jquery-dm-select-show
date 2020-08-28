@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>jQuery DM Select Option and Show Content</title>
+        <meta name="description" content="Description of the page less than 150 characters">
+        <meta name="format-detection" content="telephone=no">
+        
+        <link href="../ui/css/demo.css" rel="stylesheet" type="text/css" media="all">
+        <link href="../dist/jquery-dm-select-show.css" rel="stylesheet" type="text/css" media="all">
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="../dist/jquery-dm-select-show.js"></script>
+        <script src="../ui/js/demo.js"></script>
+    </head>
+
+    <body>
+        <main>
+            <div id="european_animals" class="block">
+                <select class="european_animals_select">
+                    <option value="0">European Badger</option>
+                    <option value="1">Italian Wolf</option>
+                    <option value="2">European Polecat</option>
+                    <option value="3">European Roller</option>
+                    <option value="4">Broad-bodied Chaser</option>
+                    <option value="5">European Otter</option>
+                </select>
+
+                <div>
+                    <div class="european_animals_item" data-option="0">
+                        <h2>European Badger</h2>
+                        <p>Size: 60-110 cm</p>
+                        <p>Weight: 10-16 kg</p>
+                    </div>
+                    
+                    <div class="european_animals_item" data-option="1">
+                        <h2>Italian Wolf</h2>
+                        <p>Size: 90-130 cm</p>
+                        <p>Weight: 20-30 kg</p>
+                    </div>
+                    
+                    <div class="european_animals_item" data-option="2">
+                        <h2>European Polecat</h2>
+                        <p>Size: 30-60 cm</p>
+                        <p>Weight: 400-1.500 g</p>
+                    </div>
+                    
+                    <div class="european_animals_item" data-option="3">
+                        <h2>European Roller</h2>
+                        <p>Size: 31-32 cm</p>
+                        <p>Weight: 127-160 g</p>
+                    </div>
+                    
+                    <div class="european_animals_item" data-option="4">
+                        <h2>Broad-bodied Chaser</h2>
+                        <p>Size: 4-5 cm</p>
+                        <p>Weight: 1-3 g</p>
+                    </div>
+                    
+                    <div class="european_animals_item" data-option="5">
+                        <h2>European Otter</h2>
+                        <p>Size: 57-70 cm</p>
+                        <p>Weight: 7-10 kg</p>
+                    </div>
+                </div>
+            </div>
+               
+            <div id="asian_animals" class="block">
+                <select class="option_select">
+                    <option>Select an Asian Animal</option>
+                    <option value="0">Snow Leopard</option>
+                    <option value="1">Red Panda</option>
+                    <option value="2">Bengal Tiger</option>
+                    <option value="3">Indian Rhinoceros</option>
+                    <option value="4">Asian Elephant</option>
+                    <option value="5">Clouded Leopard</option>
+                </select>
+
+                <div>
+                    <div class="option_element" data-option="0">
+                        <h2>Snow Leopard</h2>
+                        <p>Size: 1-1,3m</p>
+                        <p>Weight: 50-75 kg</p>
+                    </div>
+                    
+                    <div class="option_element" data-option="1">
+                        <h2>Red Panda</h2>
+                        <p>Size: 56-63 cm</p>
+                        <p>Weight: 4-7 kg</p>
+                    </div>
+                    
+                    <div class="option_element" data-option="2">
+                        <h2>Bengal Tiger</h2>
+                        <p>Size: 1,9-3 m</p>
+                        <p>Weight: 100-300 kg</p>
+                    </div>
+                    
+                    <div class="option_element" data-option="3">
+                        <h2>Indian Rhinoceros</h2>
+                        <p>Size: 3-4 m</p>
+                        <p>Weight: 1.800-2.700 kg</p>
+                    </div>
+                    
+                    <div class="option_element" data-option="4">
+                        <h2>Asian Elephant</h2>
+                        <p>Size: 2-3,5 m</p>
+                        <p>Weight: 3.000-5.000 kg</p>
+                    </div>
+                    
+                    <div class="option_element" data-option="5">
+                        <h2>Clouded Leopard</h2>
+                        <p>Size: 60-110 cm</p>
+                        <p>Weight: 11-20 kg</p>
+                    </div>
+                </div>
+            </div>
+               
+            <div id="north_america_animals" class="block">
+                <select class="option_select">
+                    <option>Select a North American Animal</option>
+                    <option value="0">Snow Leopard</option>
+                    <option value="1" selected>Red Panda</option>
+                    <option value="2">Bengal Tiger</option>
+                    <option value="3">Indian Rhinoceros</option>
+                    <option value="4">Asian Elephant</option>
+                    <option value="5">Clouded Leopard</option>
+                </select>
+
+                <div>
+                    <div class="option_element" data-option="0">
+                        <h2>Snow Leopard</h2>
+                        <p>Size: 1-1,3m</p>
+                        <p>Weight: 50-75 kg</p>
+                    </div>
+                    
+                    <div class="option_element" data-option="1">
+                        <h2>Red Panda</h2>
+                        <p>Size: 56-63 cm</p>
+                        <p>Weight: 4-7 kg</p>
+                    </div>
+                    
+                    <div class="option_element" data-option="2">
+                        <h2>Bengal Tiger</h2>
+                        <p>Size: 1,9-3 m</p>
+                        <p>Weight: 100-300 kg</p>
+                    </div>
+                    
+                    <div class="option_element" data-option="3">
+                        <h2>Indian Rhinoceros</h2>
+                        <p>Size: 3-4 m</p>
+                        <p>Weight: 1.800-2.700 kg</p>
+                    </div>
+                    
+                    <div class="option_element" data-option="4">
+                        <h2>Asian Elephant</h2>
+                        <p>Size: 2-3,5 m</p>
+                        <p>Weight: 3.000-5.000 kg</p>
+                    </div>
+                    
+                    <div class="option_element" data-option="5">
+                        <h2>Clouded Leopard</h2>
+                        <p>Size: 60-110 cm</p>
+                        <p>Weight: 11-20 kg</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
