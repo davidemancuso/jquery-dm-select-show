@@ -113,6 +113,8 @@ $(document).ready(function(){
 });
 ```
 
+Remember to add the class of the items in your CSS and add 'display: none'.
+
 ```css
 .european_animals_item { display: none; }
 ```
