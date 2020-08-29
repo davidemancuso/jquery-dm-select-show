@@ -141,6 +141,27 @@ $(document).ready(function() {
 
 All the details of the plugin and the demo are available on the page [DM Select and Show](https://davidemancuso.studio/plugins/dm-select-show/).
 
+## Tested on
+
+### Browsers
+
+• Internet Explorer 11
+• Microsoft Edge 83
+• Safari 13
+• Google Chrome 83
+• Mozilla Firefox 80
+• Opera 70
+• Samsung Internet Browser 12
+
+### OS
+
+• Windows 7
+• Windows 10
+• macOS 10.15
+• iOS 13.6
+• iPadOS 13.6
+• Android 10
+
 ## License
 
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Licence [CC BY-NC-SA 4.0](LICENSE).
