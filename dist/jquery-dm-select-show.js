@@ -1,7 +1,7 @@
 /*
  * jQuery DM Select Option and Show Content
- * Plugin Version: 1.0.0
- * Release Date: 2020-08-28
+ * Plugin Version: 1.0.1
+ * Release Date: 2020-08-29
  * URL Plugin: https://davidemancuso.studio/plugins/dm-select-show/
  *
  * Licence: CC BY-NC-SA (for more info visit https://creativecommons.org/licenses/by-nc-sa/4.0/)

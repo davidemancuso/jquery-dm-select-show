@@ -8,7 +8,7 @@
         
         $('#asian_animals').selectShow();
         
-        $('#north_america_animals').selectShow({
+        $('#north_american_animals').selectShow({
             ShowElement: 1
         });
     });

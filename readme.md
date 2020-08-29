@@ -122,19 +122,17 @@ Remember to add the class of the items in your CSS and add 'display: none'.
 Finally, if you need to have multiple lists on your page, you can call the plugin several times:
 
 ```javascript
-$(document).ready(function(){
-    $(document).ready(function() {
-        $('#european_animals').selectShow({
-            ShowElement: 0,
-            SelectOption: '.european_animals_select',
-            ListElement: '.european_animals_item'
-        });
-        
-        $('#asian_animals').selectShow();
-        
-        $('#north_america_animals').selectShow({
-            ShowElement: 1
-        });
+$(document).ready(function() {
+    $('#european_animals').selectShow({
+        ShowElement: 0,
+        SelectOption: '.european_animals_select',
+        ListElement: '.european_animals_item'
+    });
+
+    $('#asian_animals').selectShow();
+
+    $('#north_america_animals').selectShow({
+        ShowElement: 1
     });
 });
 ```
