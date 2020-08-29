@@ -145,22 +145,22 @@ All the details of the plugin and the demo are available on the page [DM Select 
 
 ### Browsers
 
-• Internet Explorer 11
-• Microsoft Edge 83
-• Safari 13
-• Google Chrome 83
-• Mozilla Firefox 80
-• Opera 70
-• Samsung Internet Browser 12
++ Internet Explorer 11
++ Microsoft Edge 83
++ Safari 13
++ Google Chrome 83
++ Mozilla Firefox 80
++ Opera 70
++ Samsung Internet Browser 12
 
 ### OS
 
-• Windows 7
-• Windows 10
-• macOS 10.15
-• iOS 13.6
-• iPadOS 13.6
-• Android 10
++ Windows 7
++ Windows 10
++ macOS 10.15
++ iOS 13.6
++ iPadOS 13.6
++ Android 10
 
 ## License
 
