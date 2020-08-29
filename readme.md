@@ -137,10 +137,6 @@ $(document).ready(function() {
 });
 ```
 
-## Demo
-
-All the details of the plugin and the demo are available on the page [DM Select and Show](https://davidemancuso.studio/plugins/dm-select-show/).
-
 ## Tested on
 
 ### Browsers
@@ -161,6 +157,10 @@ All the details of the plugin and the demo are available on the page [DM Select 
 + iOS 13.6
 + iPadOS 13.6
 + Android 10
+
+## Demo
+
+All the details of the plugin and the demo are available on the page [DM Select and Show](https://davidemancuso.studio/plugins/dm-select-show/).
 
 ## License
 
